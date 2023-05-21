@@ -31,7 +31,7 @@ class _FireBaseAPPState extends State<FireBaseAPP> {
                         //return Text(snapshot.data?[index]['nombre']);
                         return Dismissible(
                           confirmDismiss: (direction) async {
-                            print("Confirmacion de borrado");
+                            print("Confirmacion de Eliminacion");
                             return true;
                           },
                           background: Container(
@@ -39,10 +39,10 @@ class _FireBaseAPPState extends State<FireBaseAPP> {
                             child: const Icon(Icons.delete),
                           ),
                           direction: DismissDirection.endToStart,
-                          key:  UniqueKey(),
+                          key: UniqueKey(),
                           //Key(Text(snapshot.data?[index]['uid']))
                           child: ListTile(
-                            title: Text(snapshot.data?[index]['nombre']),
+                            title: Text(snapshot.data?[index]['Nombres']),
                             /* onTap: (() async {
                               print(Text(snapshot.data?[index]['nombre']));
                               print(context);
@@ -54,7 +54,7 @@ class _FireBaseAPPState extends State<FireBaseAPP> {
                                   );
                             }),*/
 
-                          /*  onTap: (() async {
+                            /*  onTap: (() async {
                               await Navigator.pushNamed(context, '/edit',
                                   arguments: {
                                     'nombre': snapshot.data?[index]['nombre'],

@@ -14,7 +14,7 @@ class _AddVehiculoState extends State<AddVehiculo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("agregar vehiculo"),
+        title: const Text("Agregar Vehiculo"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(25.0),
@@ -22,19 +22,19 @@ class _AddVehiculoState extends State<AddVehiculo> {
           children: [
             const Center(
               child: Text(
-                'pagina agregar vehiculo',
+                'Pagina para Agregar vehiculo',
                 style: TextStyle(fontSize: 24),
               ),
             ),
             TextField(
               controller: usuariosController,
               decoration: const InputDecoration(
-                  hintText: 'Ingrese la marca del vehiculo'),
+                  hintText: 'Ingrese la Marca del vehiculo'),
             ),
             TextField(
               controller: usuariosController,
               decoration: const InputDecoration(
-                  hintText: 'Ingrese el modelo del vehiculo'),
+                  hintText: 'Ingrese el Modelo del vehiculo'),
             ),
             ElevatedButton(
                 onPressed: () async {

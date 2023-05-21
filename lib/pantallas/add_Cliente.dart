@@ -22,19 +22,19 @@ class _AddClienteState extends State<AddCliente> {
           children: [
             const Center(
               child: Text(
-                'Pagina Agregar Cliente',
+                'Pagina para Agregar Cliente',
                 style: TextStyle(fontSize: 24),
               ),
             ),
             TextField(
               controller: usuariosController,
               decoration: const InputDecoration(
-                  hintText: 'Ingrese el nombre del Cliente'),
+                  hintText: 'Ingrese los nombre del Cliente'),
             ),
             TextField(
               controller: usuariosController,
               decoration: const InputDecoration(
-                  hintText: 'Ingrese el apellido del Cliente'),
+                  hintText: 'Ingrese los apellido del Cliente'),
             ),
             TextField(
               controller: usuariosController,

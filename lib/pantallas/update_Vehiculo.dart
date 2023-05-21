@@ -17,7 +17,7 @@ class _UpdateVehiculoState extends State<UpdateVehiculo> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Update Vehiculo"),
+        title: const Text("Actualizar Vehiculo"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(25.0),
@@ -25,7 +25,7 @@ class _UpdateVehiculoState extends State<UpdateVehiculo> {
           children: [
             const Center(
               child: const Text(
-                'Pagina para modificar Vehiculo',
+                'Pagina Modificar Vehiculo',
                 style: TextStyle(fontSize: 24),
               ),
             ),

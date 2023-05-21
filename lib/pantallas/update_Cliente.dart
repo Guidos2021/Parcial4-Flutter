@@ -17,7 +17,7 @@ class _UpdateClienteState extends State<UpdateCliente> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Update Cliente"),
+        title: const Text("Actualizar Cliente"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(25.0),
@@ -25,7 +25,7 @@ class _UpdateClienteState extends State<UpdateCliente> {
           children: [
             const Center(
               child: const Text(
-                'Pagina para modificar Cliente',
+                'Pagina Modificar Cliente',
                 style: TextStyle(fontSize: 24),
               ),
             ),

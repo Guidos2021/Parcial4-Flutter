@@ -39,6 +39,7 @@ class DefaultFirebaseOptions {
       default:
         throw UnsupportedError(
           'DefaultFirebaseOptions are not supported for this platform.',
+          /*'DefaultFirebaseOptions are not supported for this platform.',*/
         );
     }
   }
@@ -66,7 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '974100697808',
     projectId: 'flutterbd-e97ff',
     storageBucket: 'flutterbd-e97ff.appspot.com',
-    iosClientId: '974100697808-9cvv3s4cvnlmljau3n81l96tirhf959j.apps.googleusercontent.com',
+    iosClientId:
+        '974100697808-9cvv3s4cvnlmljau3n81l96tirhf959j.apps.googleusercontent.com',
     iosBundleId: 'flutterutec.edu.sv.flutterFirebaseapp',
   );
 
@@ -76,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '974100697808',
     projectId: 'flutterbd-e97ff',
     storageBucket: 'flutterbd-e97ff.appspot.com',
-    iosClientId: '974100697808-9cvv3s4cvnlmljau3n81l96tirhf959j.apps.googleusercontent.com',
+    iosClientId:
+        '974100697808-9cvv3s4cvnlmljau3n81l96tirhf959j.apps.googleusercontent.com',
     iosBundleId: 'flutterutec.edu.sv.flutterFirebaseapp',
   );
 }

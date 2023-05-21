@@ -16,27 +16,27 @@ Future<List> getUsuarios() async {
 
 //guardar usuario
 Future<void> agregarCliente(String usuario) async {
-  await baseD.collection('clientes').add({"nombres": usuario});
-  await baseD.collection('clientes').add({"apellidos": usuario});
-  await baseD.collection('clientes').add({"direccion": usuario});
-  await baseD.collection('clientes').add({"ciudad": usuario});
+  await baseD.collection('clientes').add({"Nombres": usuario});
+  await baseD.collection('clientes').add({"Apellidos": usuario});
+  await baseD.collection('clientes').add({"Direccion": usuario});
+  await baseD.collection('clientes').add({"Ciudad": usuario});
 }
 
 Future<void> ActualizarCliente(String usuario) async {
-  await baseD.collection('clientes').add({"nombres": usuario});
-  await baseD.collection('clientes').add({"apellidos": usuario});
-  await baseD.collection('clientes').add({"direccion": usuario});
-  await baseD.collection('clientes').add({"ciudad": usuario});
+  await baseD.collection('clientes').add({"Nombres": usuario});
+  await baseD.collection('clientes').add({"Apellidos": usuario});
+  await baseD.collection('clientes').add({"Direccion": usuario});
+  await baseD.collection('clientes').add({"Ciudad": usuario});
 }
 
 Future<void> agregarVehiculo(String usuario) async {
-  await baseD.collection('vehiculo').add({"marca": usuario});
-  await baseD.collection('vehiculo').add({"modelo": usuario});
+  await baseD.collection('vehiculo').add({"Marca": usuario});
+  await baseD.collection('vehiculo').add({"Modelo": usuario});
 }
 
 Future<void> ActuzalizarVehiculo(String usuario) async {
-  await baseD.collection('vehiculo').add({"marca": usuario});
-  await baseD.collection('vehiculo').add({"modelo": usuario});
+  await baseD.collection('vehiculo').add({"Marca": usuario});
+  await baseD.collection('vehiculo').add({"Modelo": usuario});
 }
 
 

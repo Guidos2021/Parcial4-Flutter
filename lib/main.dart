@@ -22,14 +22,14 @@ class FireBaseMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FirebaseCRUD',
+      title: 'CRUD de Firebase',
       initialRoute: '/',
       routes: {
         '/': (context) => const FireBaseAPP(),
-        '/addCliente': (context) => const AddCliente(),
-        '/editCliente': (context) => const UpdateCliente(),
-        '/addVehiculo': (context) => const AddVehiculo(),
-        '/editCliente': (context) => const UpdateVehiculo(),
+        '/addClientes': (context) => const AddCliente(),
+        '/editClientes': (context) => const UpdateCliente(),
+        '/addVehiculos': (context) => const AddVehiculo(),
+        '/editClientes': (context) => const UpdateVehiculo(),
       },
     );
   }
